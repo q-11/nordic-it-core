@@ -1,0 +1,13 @@
+C:\Users\egori\Desktop\C#\GIT\nordic-it-core\03\HomeWork\L03_HomeWork_2\L03_HomeWork_2\bin\Debug\netcoreapp3.1\L03_HomeWork_2.exe
+C:\Users\egori\Desktop\C#\GIT\nordic-it-core\03\HomeWork\L03_HomeWork_2\L03_HomeWork_2\bin\Debug\netcoreapp3.1\L03_HomeWork_2.deps.json
+C:\Users\egori\Desktop\C#\GIT\nordic-it-core\03\HomeWork\L03_HomeWork_2\L03_HomeWork_2\bin\Debug\netcoreapp3.1\L03_HomeWork_2.runtimeconfig.json
+C:\Users\egori\Desktop\C#\GIT\nordic-it-core\03\HomeWork\L03_HomeWork_2\L03_HomeWork_2\bin\Debug\netcoreapp3.1\L03_HomeWork_2.runtimeconfig.dev.json
+C:\Users\egori\Desktop\C#\GIT\nordic-it-core\03\HomeWork\L03_HomeWork_2\L03_HomeWork_2\bin\Debug\netcoreapp3.1\L03_HomeWork_2.dll
+C:\Users\egori\Desktop\C#\GIT\nordic-it-core\03\HomeWork\L03_HomeWork_2\L03_HomeWork_2\bin\Debug\netcoreapp3.1\L03_HomeWork_2.pdb
+C:\Users\egori\Desktop\C#\GIT\nordic-it-core\03\HomeWork\L03_HomeWork_2\L03_HomeWork_2\obj\Debug\netcoreapp3.1\L03_HomeWork_2.csprojAssemblyReference.cache
+C:\Users\egori\Desktop\C#\GIT\nordic-it-core\03\HomeWork\L03_HomeWork_2\L03_HomeWork_2\obj\Debug\netcoreapp3.1\L03_HomeWork_2.AssemblyInfoInputs.cache
+C:\Users\egori\Desktop\C#\GIT\nordic-it-core\03\HomeWork\L03_HomeWork_2\L03_HomeWork_2\obj\Debug\netcoreapp3.1\L03_HomeWork_2.AssemblyInfo.cs
+C:\Users\egori\Desktop\C#\GIT\nordic-it-core\03\HomeWork\L03_HomeWork_2\L03_HomeWork_2\obj\Debug\netcoreapp3.1\L03_HomeWork_2.csproj.CoreCompileInputs.cache
+C:\Users\egori\Desktop\C#\GIT\nordic-it-core\03\HomeWork\L03_HomeWork_2\L03_HomeWork_2\obj\Debug\netcoreapp3.1\L03_HomeWork_2.dll
+C:\Users\egori\Desktop\C#\GIT\nordic-it-core\03\HomeWork\L03_HomeWork_2\L03_HomeWork_2\obj\Debug\netcoreapp3.1\L03_HomeWork_2.pdb
+C:\Users\egori\Desktop\C#\GIT\nordic-it-core\03\HomeWork\L03_HomeWork_2\L03_HomeWork_2\obj\Debug\netcoreapp3.1\L03_HomeWork_2.genruntimeconfig.cache
