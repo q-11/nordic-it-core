@@ -6,39 +6,39 @@ namespace L05_HomeWork_1
 {
 	enum Figures
 	{
-		circle = 1,
-		triangle = 2,
-		rectangle = 3
+		Circle = 1, 
+		Triangle = 2, 
+		Rectangle = 3 
 	}
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			Figures choce = 0;
+			Figures choice = 0;
 			Console.WriteLine("Введите номер одной из фигур (1 - круг, 2 - треугольник, 3 - прямоугольник): ");
 			object figure = Enum.Parse(typeof(Figures), Console.ReadLine());
-			choce = (Figures)figure;
+			choice = (Figures)figure;
 
 			string input;
 			double perimeter;
 			double space;
-			double D;
-			double A;
-			double H;
+			double diameter;
+			double sideLength;
+			double height;
 
 			try
 			{
-				switch (choce)
+				switch (choice)
 				{
-					case Figures.circle:
+					case Figures.Circle:
 						Console.Write("Введите диаметр круга: ");
 						input = Console.ReadLine();
-						D = double.Parse(input);
+						diameter = double.Parse(input);
 
-						if (D > 0)
+						if (diameter > 0)
 						{
-							perimeter = (D / 2) * (Math.PI * 2);
-							space = Math.Pow((D / 2), 2) * Math.PI;
+							perimeter = (diameter / 2) * (Math.PI * 2);
+							space = Math.Pow((diameter / 2), 2) * Math.PI;
 							Console.WriteLine("Периметр круга: " + perimeter);
 							Console.WriteLine("Площадь круга: " + space);
 						}
@@ -49,15 +49,15 @@ namespace L05_HomeWork_1
 						}
 
 						break;
-					case Figures.triangle:
+					case Figures.Triangle:
 						Console.Write("Введите длину стороны теугольника: ");
 						input = Console.ReadLine();
-						A = double.Parse(input);
+						sideLength = double.Parse(input);
 
-						if (A > 0)
+						if (sideLength > 0)
 						{
-							perimeter = (A * 3);
-							space = (Math.Pow(A, 2) * Math.Sqrt(3)) / 4;
+							perimeter = (sideLength * 3);
+							space = (Math.Pow(sideLength, 2) * Math.Sqrt(3)) / 4;
 							Console.WriteLine("Периметр треугольника: " + perimeter);
 							Console.WriteLine("Площадь треугольника: " + space);
 						}
@@ -68,18 +68,18 @@ namespace L05_HomeWork_1
 						}
 
 						break;
-					case Figures.rectangle:
+					case Figures.Rectangle:
 						Console.Write("Введите длину стороны прямоугольника: ");
 						input = Console.ReadLine();
-						A = double.Parse(input);
+						sideLength = double.Parse(input);
 						Console.Write("Введите высоту стороны прямоугольника: ");
 						input = Console.ReadLine();
-						H = double.Parse(input);
+						height = double.Parse(input);
 
-						if (A > 0 && H > 0)
+						if (sideLength > 0 && height > 0)
 						{
-							perimeter = (A * 2) + (H * 2);
-							space = A * H;
+							perimeter = (sideLength * 2) + (height * 2);
+							space = sideLength * height;
 							Console.WriteLine("Периметр прямоугольника: " + perimeter);
 						}
 
