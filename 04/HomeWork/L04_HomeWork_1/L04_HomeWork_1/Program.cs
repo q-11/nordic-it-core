@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace L04_HomeWork_1
 {
@@ -10,28 +11,32 @@ namespace L04_HomeWork_1
 			string input = Console.ReadLine();
 			float value = float.Parse(input);
 
-			float ct20 = 0;
-			float ct5 = 0;
-			float ct1 = 0;
+			float bigContainer = 0;
+			float middleContainer = 0;
+			float smallContainer = 0;
 
-			ct20 = value / 20;
-			if (ct20 >= 1)
+			const int bigSize = 20;
+			const int middleSize = 5;
+			const int smallSize = 1;
+
+			bigContainer = value / bigSize;
+			if (bigContainer >= 1)
 			{
-				Console.WriteLine($"Количество контейнеров 20л: {Math.Floor(ct20)}");
+				Console.WriteLine($"Количество контейнеров 20л: {Math.Floor(bigContainer)}");
 			}
-			value = value % 20;
+			value = value % bigSize;
 
-			ct5 = value / 5;
-			if (ct5 >= 1)
+			middleContainer = value / middleSize;
+			if (middleContainer >= 1)
 			{
-				Console.WriteLine($"Количество контейнеров 5л: {Math.Floor(ct5)}");
+				Console.WriteLine($"Количество контейнеров 5л: {Math.Floor(middleContainer)}");
 			}
-			value = value % 5;
+			value = value % middleSize;
 
-			ct1 = value / 1;
-			if (ct1 != 0)
+			smallContainer = value / smallSize;
+			if (smallContainer != 0)
 			{
-				Console.WriteLine($"Количество контейнеров 1л: {Math.Ceiling(ct1)}");
+				Console.WriteLine($"Количество контейнеров 1л: {Math.Ceiling(smallContainer)}");
 			}
 
 		}
